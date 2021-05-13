@@ -1,2 +1,16 @@
 # nonver_aids
-AndroidManifest error could not be resolved, so I gave up on releasing it. This is an application for non-verbal communication. I couldn't figure out how to make the notation of tags into icons, so I used text symbols.  Illustration by Irasutoya URL: https://www.irasutoya.com/ Voice by OtoLogid URL:https://otologic.jp/
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

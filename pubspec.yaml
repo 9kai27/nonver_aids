@@ -1,0 +1,218 @@
+name: nonver_aids
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  assets_audio_player: ^2.0.10
+  hooks_riverpod: ^0.13.1+1
+  flutter_hooks: ^0.16.0
+  state_notifier: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'nonver_aids/assets/icon/icon.png'
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+      #sounds
+      - assets/sounds/circle.mp3
+      - assets/sounds/cross.mp3
+      - assets/sounds/triangle.mp3
+      #picture(anger)
+      - assets/image/feeling/anger/angrywtearm.png
+      - assets/image/feeling/anger/angrywtearw.png
+      - assets/image/feeling/anger/furym.png
+      - assets/image/feeling/anger/furyw.png
+      - assets/image/feeling/anger/hystericm.png
+      - assets/image/feeling/anger/hystericw.png
+      - assets/image/feeling/anger/littleangryb.png
+      - assets/image/feeling/anger/littleangryg.png
+      - assets/image/feeling/anger/ragem.png
+      - assets/image/feeling/anger/ragew.png
+      - assets/image/feeling/anger/sulkingm.png
+      - assets/image/feeling/anger/sulkingw.png
+      - assets/image/feeling/anger/uramim.png
+      - assets/image/feeling/anger/uramiw.png
+      #picture(enjoy)
+      - assets/image/feeling/gigglingm.png
+      - assets/image/feeling/gigglingw.png
+      - assets/image/feeling/happym.png
+      - assets/image/feeling/happyw.png
+      - assets/image/feeling/smileb.png
+      - assets/image/feeling/smileg.png
+      #picture(inderscriable)
+      - assets/image/feeling/batteredm.png
+      - assets/image/feeling/batteredw.png
+      - assets/image/feeling/bittersmilem.png
+      - assets/image/feeling/bittersmilew.png
+      - assets/image/feeling/broadlygrinningm.png
+      - assets/image/feeling/broadlygrinningw.png
+      - assets/image/feeling/derisionm.png
+      - assets/image/feeling/derisionw.png
+      - assets/image/feeling/dislocatem.png
+      - assets/image/feeling/dislocatew.png
+      - assets/image/feeling/dumbfoundedm.png
+      - assets/image/feeling/dumbfoundedw.png
+      - assets/image/feeling/expressivem.png
+      - assets/image/feeling/expressivew.png
+      - assets/image/feeling/eye-poppinglyamazingm.png
+      - assets/image/feeling/eye-poppinglyamazingw.png
+      - assets/image/feeling/frustratingm.png
+      - assets/image/feeling/frustratingw.png
+      - assets/image/feeling/idkm.png
+      - assets/image/feeling/idkw.png
+      - assets/image/feeling/justasplannedm.png
+      - assets/image/feeling/justasplannedw.png
+      - assets/image/feeling/lovem.png
+      - assets/image/feeling/lovew.png
+      - assets/image/feeling/reallym.png
+      - assets/image/feeling/reallyw.png
+      - assets/image/feeling/shamem.png
+      - assets/image/feeling/shamew.png
+      - assets/image/feeling/suprisem.png
+      - assets/image/feeling/suprisew.png
+      - assets/image/feeling/suspiciousm.png
+      - assets/image/feeling/suspiciousw.png
+      - assets/image/feeling/triumphantm.png
+      - assets/image/feeling/triumphantw.png
+      - assets/image/feeling/unappetizingm.png
+      - assets/image/feeling/unappetizingw.png
+      #picture(pleasure)
+      - assets/image/feeling/dancingm.png
+      - assets/image/feeling/dancingw.png
+      - assets/image/feeling/deliciousm.png
+      - assets/image/feeling/deliciousw.png
+      - assets/image/feeling/guffaw.png
+      - assets/image/feeling/impressedb.png
+      - assets/image/feeling/impressedg.png
+      #picture(sadness)
+      - assets/image/feeling/boringm.png
+      - assets/image/feeling/boringw.png
+      - assets/image/feeling/buranko_boy_sad.png
+      - assets/image/feeling/buranko_girl_sad.png
+      - assets/image/feeling/cowerm.png
+      - assets/image/feeling/cowerw.png
+      - assets/image/feeling/cryb.png
+      - assets/image/feeling/cryg.png
+      - assets/image/feeling/perplexedm.png
+      - assets/image/feeling/perplexedw.png
+      - assets/image/feeling/pierrot.png
+      - assets/image/feeling/sleepcrym.png
+      - assets/image/feeling/sleepcryw.png
+      #food
+      - assets/image/job/food/corn.png
+      - assets/image/job/food/potato.png
+      - assets/image/job/food/bread.png
+      - assets/image/job/food/rice.png
+      #object
+      - assets/image/job/object/car.png
+      - assets/image/job/object/pencil.png
+      - assets/image/job/object/stealing_from_vehicle.png
+      - assets/image/job/object/tablet.png
+      - assets/image/job/object/towel.png
+      #poor_body_condition
+      - assets/image/job/poor_body_condition/armhurtm.png
+      - assets/image/job/poor_body_condition/backhurtw.png
+      - assets/image/job/poor_body_condition/chesthurw.png
+      - assets/image/job/poor_body_condition/chesthurm.png
+      - assets/image/job/poor_body_condition/elboqwhurtm.png
+      - assets/image/job/poor_body_condition/feelsickw.png
+      - assets/image/job/poor_body_condition/feelsickm.png
+      - assets/image/job/poor_body_condition/feethurtw.png
+      - assets/image/job/poor_body_condition/hiphurtw.png
+      - assets/image/job/poor_body_condition/hiphurtm.png
+      - assets/image/job/poor_body_condition/kansetsutsuu.png
+      - assets/image/job/poor_body_condition/lumbagom.png
+      - assets/image/job/poor_body_condition/neckhurtm.png
+      - assets/image/job/poor_body_condition/shoulderhurtw.png
+      - assets/image/job/poor_body_condition/sorethroatm.png
+      - assets/image/job/poor_body_condition/sorethroatw.png
+      - assets/image/job/poor_body_condition/sportsinjury.png
+      - assets/image/job/poor_body_condition/wristhurtm.png
+      #situation
+      - assets/image/job/situation/cleaning.png
+      - assets/image/job/situation/hungryb.png
+      - assets/image/job/situation/hungryg.png
+      - assets/image/job/situation/keepquiet.png
+      - assets/image/job/situation/shoppingm.png
+      - assets/image/job/situation/shoppingw.png
+      - assets/image/job/situation/toocold.png
+      - assets/image/job/situation/toohotm.png
+      - assets/image/job/situation/toohotw.png
+      #urgent
+      - assets/image/job/urgent/hospital.png
+      - assets/image/job/urgent/lost_way.png
+      - assets/image/job/urgent/toilet.png
+      - assets/image/job/urgent/water.png
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

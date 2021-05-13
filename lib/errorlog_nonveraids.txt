@@ -1,0 +1,20 @@
+2021/4/30
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':compileReleaseAidl'.
+> SDK location not found. Define location with an ANDROID_SDK_ROOT environment variable or by setting the sdk.dir path in your project's local properties file at '/Users/9kai27/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-2.0.15/android/local.properties'.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+* Get more help at https://help.gradle.org
+BUILD FAILED in 44s
+
+Exception: The plugin assets_audio_player could not be built due to the issue above.
+
+
+(タブのテキストを♪に変えたら発生)
+Launching lib/main.dart on Chrome in debug mode...
+Waiting for connection from debug service on Chrome...             54.6s
+Failed to establish connection with the application instance in Chrome.
+This can happen if the websocket connection used by the web tooling is unable to correctly establish a connection, for example due to a firewall.
